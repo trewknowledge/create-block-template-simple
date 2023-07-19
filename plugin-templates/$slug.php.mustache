@@ -1,0 +1,36 @@
+<?php
+/**
+ * Plugin Name:       {{title}}
+{{#pluginURI}}
+ * Plugin URI:        {{{pluginURI}}}
+{{/pluginURI}}
+{{#description}}
+ * Description:       {{description}}
+{{/description}}
+ * Requires at least: 6.1
+ * Requires PHP:      7.0
+ * Version:           {{version}}
+{{#author}}
+ * Author:            Trew Knowledge
+{{/author}}
+{{#license}}
+ * License:           {{license}}
+{{/license}}
+{{#licenseURI}}
+ * License URI:       {{{licenseURI}}}
+{{/licenseURI}}
+ * Text Domain:       {{textdomain}}
+{{#domainPath}}
+ * Domain Path:       {{{domainPath}}}
+{{/domainPath}}
+{{#updateURI}}
+ * Update URI:        {{{updateURI}}}
+{{/updateURI}}
+ *
+ * @package           {{namespace}}
+ */
+
+function {{namespaceSnakeCase}}_{{slugSnakeCase}}_block_init() {
+	register_block_type( __DIR__ . '/build' );
+}
+add_action( 'init', '{{namespaceSnakeCase}}_{{slugSnakeCase}}_block_init' );
