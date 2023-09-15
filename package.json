@@ -1,12 +1,19 @@
 {
   "name": "@trewknowledge/create-block-template-simple",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "A simplified @wordpress/create-block template for TK Developers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trewknowledge/create-block-template-simple.git"
+  },
+  "author": "Trew Knowledge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trewknowledge/create-block-template-simple/issues"
+  },
+  "homepage": "https://github.com/trewknowledge/create-block-template-simple#readme"
 }
