@@ -8,6 +8,13 @@ module.exports = {
 		version: '1.0.0',
     author: 'Trew Knowledge',
     namespace: 'tk',
-    category: 'design',
-  }
+    category: 'theme',
+    attributes: {},
+  },
+  variants: {
+    static: {},
+    dynamic: {
+      render: 'file:./render.php',
+    },
+  },
 };
