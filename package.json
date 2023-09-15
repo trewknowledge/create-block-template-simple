@@ -1,6 +1,6 @@
 {
   "name": "@trewknowledge/create-block-template-simple",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simplified @wordpress/create-block template for TK Developers",
   "main": "index.js",
   "scripts": {
