@@ -1,5 +1,5 @@
 {{#isDynamicVariant}}
-<div <?php echo get_block_wrapper_attributes(); ?>>
+<div <?php echo get_block_wrapper_attributes(); ?>> <?php // phpcs:ignore ?>
 	<p><?php esc_html_e( '{{title}} – hello from a dynamic block!', '{{textdomain}}' ); ?></p>
 </div>
 {{/isDynamicVariant}}
